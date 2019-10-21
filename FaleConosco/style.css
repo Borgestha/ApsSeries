@@ -1,0 +1,96 @@
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    align-items: center
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa {
+    margin: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.icon:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    border-radius: 50px;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0, 80cm;
+    text-decoration: none;
+}
+
+a:hover {
+    color: Vintages;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+body {
+    background-color: #201F24;
+    width: 98%;
+    height: 105%;
+    align-items: center;
+}
